@@ -1,1 +1,21 @@
 node_modules/
+
+### Terraform ###
+.terraform  
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+tfplan
+
+### VsCode ###
+.vscode
+
+### Ansible ###
+inventory.json
+.ansible
+
+### Keys ###
+id_rsa
+id_rsa.pub
+ansible-key
+ansible-key.pub
