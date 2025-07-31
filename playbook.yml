@@ -1,6 +1,8 @@
 - name: Setup EC2 instance
   hosts: all
   become: true
+  vars_files:
+    - vault.yml
   tasks:
 
     - name: Update apt packages
@@ -67,3 +69,15 @@
       register: docker_info_output
       changed_when: false
       failed_when: docker_info_output.rc != 0
+
+    - name: Copy docker-compose.yml with permissions
+      ansible.builtin.copy:
+        src: ./docker-compose.yml
+        dest: /home/ubuntu/docker-compose.yml
+        mode: '0644'
+
+    - name: Copy .env with permissions
+      ansible.builtin.copy:
+        src: .env
+        dest: /home/ubuntu/.env
+        mode: '0644'
