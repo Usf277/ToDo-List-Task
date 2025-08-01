@@ -127,6 +127,10 @@ ansible-playbook -i ansible/inventory ansible/playbook.yml --ask-vault-pass
 
 ---
 
+<a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/mdsne33mr35jap6lxyjm" alt="trackgit-views" />
+</a>
+
 ## 👨‍💻 Author
 
 **Name**: [Youssef Safwat]  
