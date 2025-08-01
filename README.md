@@ -81,6 +81,9 @@ Docker Compose and a GitHub self-hosted runner enable automated deployment and c
     - Triggers deployments on `master` branch pushes, pulling the latest image and restarting services with `docker-compose`.
     - Runs on the EC2 instance, optimizing costs and enabling customized workflows.
 
+- **Here is you can access the application at http://54.170.177.24:4000**:
+  <img width="1680" height="1010" alt="Screenshot 2025-08-01 at 10 26 41 AM" src="https://github.com/user-attachments/assets/3506eb6d-11b3-4d87-b787-d807079a0d1e" />
+
 ---
 
 ## ✅ Summary
